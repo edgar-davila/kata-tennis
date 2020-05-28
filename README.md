@@ -31,7 +31,8 @@ Make sure these cases are covered in our tennis scoring system:
 | 2 points above opponent + high score 4 or more | 4 |    0 | Win for player1
 | 2 points above opponent + high score 4 or more| 8 |    10 | Win for player2
 | 1 points above opponent + high score 4 or more | 4 |    3 | Advantage player1
-Base values are these: (0=Love, 1=Fifteen, 2=Thirty, 3=Forty)
+- Base values are these: (0=Love, 1=Fifteen, 2=Thirty, 3=Forty)
+
 ## Iteration 2
 ### Refactoring code itself
 
