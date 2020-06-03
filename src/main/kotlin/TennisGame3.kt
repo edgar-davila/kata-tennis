@@ -23,7 +23,5 @@ class TennisGame3(private val p1N: String, private val p2N: String) : TennisGame
             this.p1 += 1
         else
             this.p2 += 1
-
     }
-
 }

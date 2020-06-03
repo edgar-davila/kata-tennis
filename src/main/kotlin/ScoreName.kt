@@ -1,22 +1,22 @@
-class Score {
+class ScoreName {
     companion object {
-        const val LOVE_ALL = "Love-All"
-        const val FIFTEEN_ALL = "Fifteen-All"
-        const val THIRTY_ALL = "Thirty-All"
+        private const val LOVE_ALL = "Love-All"
+        private const val FIFTEEN_ALL = "Fifteen-All"
+        private const val THIRTY_ALL = "Thirty-All"
 
-        const val ADVANTAGE_PLAYER_1 = "Advantage player1"
-        const val ADVANTAGE_PLAYER_2 = "Advantage player2"
-        const val WIN_PLAYER_1 = "Win for player1"
-        const val WIN_PLAYER_2 = "Win for player2"
+        private const val ADVANTAGE_PLAYER_1 = "Advantage player1"
+        private const val ADVANTAGE_PLAYER_2 = "Advantage player2"
+        private const val WIN_PLAYER_1 = "Win for player1"
+        private const val WIN_PLAYER_2 = "Win for player2"
 
-        const val DEUCE = "Deuce"
-        const val LOVE = "Love"
-        const val FIFTEEN = "Fifteen"
-        const val THIRTY = "Thirty"
-        const val FORTY = "Forty"
+        private const val DEUCE = "Deuce"
+        private const val LOVE = "Love"
+        private const val FIFTEEN = "Fifteen"
+        private const val THIRTY = "Thirty"
+        private const val FORTY = "Forty"
 
-        fun calculateTied(score1: Int, score2: Int): String {
-            return when (score1) {
+        fun calculateTied(score: Int): String {
+            return when (score) {
                 0 -> LOVE_ALL
                 1 -> FIFTEEN_ALL
                 2 -> THIRTY_ALL
